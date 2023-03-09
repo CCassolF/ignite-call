@@ -10,7 +10,7 @@ export const ConfirmForm = styled(Box, {
   label: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '$4',
+    gap: '$2',
   },
 })
 
@@ -18,6 +18,7 @@ export const FormHeader = styled('div', {
   display: 'flex',
   alignItems: 'center',
   gap: '$4',
+
   paddingBottom: '$6',
   marginBottom: '$2',
   borderBottom: '1px solid $gray600',
@@ -35,8 +36,8 @@ export const FormHeader = styled('div', {
   },
 })
 
-export const FormError = styled('div', {
-  color: '#f75a68',
+export const FormError = styled(Text, {
+  color: '#F75A68',
 })
 
 export const FormActions = styled('div', {
